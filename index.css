@@ -14,6 +14,13 @@ header {
 	font-size: 15px;
 	font-weight: normal;
 	line-height: 18px;
+	background-color: blanchedalmond;
 
 }
 
+#sidebar {
+	float: left;
+	left: 0;
+	height: 100%;
+	background-color: #eee;
+}
