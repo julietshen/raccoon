@@ -1,25 +1,50 @@
-
-h1 {
-	font-size: 24px;
+body {
+	font-size: 15px;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	line-height: 27px;
-	font-style: oblique;
 }
 
-#container {
+
+#header {
+	font-size: 45px;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-variant: normal;
-	font-size: 15px;
-	font-weight: normal;
-	line-height: 18px;
-	background-color: blanchedalmond;
+	line-height: 27px;
+	font-weight: 500px;
+	text-align: center;
+	color: #fff;
+	background-color: #666;
+	float: top;
+	padding: .5em;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto 0 auto;
 
 }
 
 #sidebar {
 	float: left;
-	left: 0;
-	height: 100%;
+	overflow-y: scroll;
+	margin: 0;
+	position: fixed;
+	margin-top: .5%;
 	background-color: #eee;
+	width: 240px;
+	padding: 10px;
+	height: 100%;
+
 }
 
+#content {
+	background-color: blanchedalmond;
+	margin-left: 250px;
+	padding: 20px;
+	margin-top: 13%;
+
+	
+}
